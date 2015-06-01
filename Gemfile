@@ -5,6 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # State of the art hash function 
 gem 'bcrypt', '3.1.7'
+# Faker allows us to make sample users with semi-realistic names and email addresses
+gem 'faker',  '1.4.2'
+# Allows only a certain number to show up at a time
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Bootstraps
 gem 'bootstrap-sass', '3.2.0.0'
 # Use SCSS for stylesheets
